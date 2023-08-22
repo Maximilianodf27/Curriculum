@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+}
+main{
+    height: 95vh;
+}
+#libro{
+    text-decoration: none;
+    list-style-type: none;
+}
+section {
+    display: flex;
+    width: 400px;
+    height: 450px;
+}
+#libri{
+    margin: 15px;
+    margin-left: 50%;
+}
+footer{
+    height: 10vh;
+}
+
+

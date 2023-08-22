@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000066 ;
+}
+header{
+    height: 15vh;
+    background-color: #000066   ;
+}
+#listaheader{
+    padding-left: 50%;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rokkitt', serif;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+a:hover{
+color: rgb(255, 255, 255);
+}
+#a2{
+    color: black;
+}
+#a2:hover{
+    color: white;
+}
+main{
+    height: 75vh;
+    background-color: #000066   ;
+    margin-top: 5rem;
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rokkitt', serif;
+    font-family: 'Rubik', sans-serif;
+}
+#section2{
+    margin-top: 10rem;
+}
+#section3{
+    margin-top: 12rem;
+}
+input{
+    height: 3.5rem;
+}
+.email{
+    margin: 6%;
+    padding: 5%;
+}
+#asunto{
+    height: 7rem;
+}
+#enviar{
+background-color: white;
+}
+#enviar:hover{
+    color: white;
+    background-color: black;
+}
+footer{
+    color: black;
+    height: 10vh;
+   
+}
+#listafooter{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rokkitt', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+#insta:hover{
+    background-color: #09e914;
+}
+#gmail:hover{
+    background-color: #FF0000;
+    
+}
+#linkedin:hover{
+    background-color: #2E86C1 ;
+}
+#iconosTec{
+    color: aliceblue;
+    width: 25px;
+    height: 25px;
+}
+#iconosTec{
+    width: 50px;
+    height: 50px;
+}
+#iconosTec:hover{
+   color: black;
+}
+#python:hover{
+    color: black;
+    background: rgb(8,111,186);
+    background: linear-gradient(143deg, rgba(8,111,186,1) 43%, rgba(244,197,23,1) 52%);
+}
+#html:hover{
+    background-color: #FF3800;
+}
+#css:hover{
+    background-color:#0066b2 ;
+}
+#java:hover{
+    background-color: #A91101; 
+}
+#js:hover{
+    background-color: #FFD700;
+}
+#sass:hover{
+    background-color: #DE3163;
+}
+#gitt:hover{
+    background-color: #FF4500 ;
+}
+#c:hover{
+    background-color: #0066b2 ;
+}
+#linux:hover{
+    background-color: #FBFCFC;
+}
+p{
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rokkitt', serif;
+font-family: 'Rubik', sans-serif;
+}
+
