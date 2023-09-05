@@ -24,13 +24,16 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Libros Recientes </a>
+                      <a class="nav-link active" aria-current="page" href="#recientes">Libros Recientes </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Libros antiguos</a>
+                      <a class="nav-link" href="#antiguos">Libros antiguos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Encuesta </a>
+                      <a class="nav-link" href="#encuesta">Encuesta </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">cv</a>
                     </li>
                 </div>
               </div>
@@ -38,46 +41,91 @@
           </nav>
     </header>
     <main>
-      <section id="libros">
-        <div class="row  h-100">
-                <div class=" row col-lg-12 h-100">
-                  <h2 id="text1" class="col-12 text-center">Libros Recientes</h2>
-                  <ul id="libro" class=" d-flex justify-content-between align-items-center  col-lg-12 ms-5 ">
-                      <li id="libri"  class="col-lg-4">
-                        <img class=" border-black border border-5" src="../img/python-para-principiantes.jpg" alt="">
-                      </li>
-                      <li id="libri" class="col-lg-4">
-                        <img class="border-black border border-5" src="../img/java.jpg" alt="">
-                      </li>
-                      <li id="libri" class="col-lg-4">
-                        <img class="border-black border border-5" src="../img/c++.jpg" alt="">
-                      </li>
-                  </ul>
-                </div>
-                <div class="col-lg-12 pt-5">
-                  <h2 id="text1" class="col-lg-12 text-center">Libros antiguos  </h2>
-                  <ul id="libro" class=" d-flex justify-content-between align-items-center  col-lg-12 ms-5 ">
-                      <li id="libri" >
-                        <img class=" border-black border border-5" src="../img/python antiguo.jpg" alt="">
-                      </li>
-                      <li id="libri">
-                        <img class="border-black border border-5" src="../img/java antiguo.jpg" alt="">
-                      </li>
-                      <li id="libri">
-                        <img class="border-black border border-5" src="../img/c++ antiguo.jpg" alt="">
-                      </li>
-                  </ul>
-                </div>
-                <div>
-                  <div class="d-flex">
-                    <p class="fs-1  h-100">Trailer</p>
-                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/Mm2Q5MbAiA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+      <section class="container-fluid mt-4">
+        <div class="row ">
+            <div id="tituproductos"  class="col-lg-12  text-center">
+                <h2 class="pb-5" id="recientes">Libros Recientes</h2>
+            </div>
+            <div id="imagenes"  class=" col-lg-12  text-center d-flex  container-fluid ">
+                    <div class="col-lg-4 ">
+                        <img id="escobillon" class="img-fluid  border-black border border-2 rounded-3" src="../img/python-para-principiantes.jpg"escobillon">
+                        <h2 class="text-center mt-4 ">Python 2021</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid border-black border border-2 rounded-3" src="../img/c++.jpg"  alt="plasticos">
+                        <h2 class="text-center mt-4">C++ 2015</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-fluid border-black border border-2 rounded-3" src="../img/java.jpg" alt="broches">
+                        <h2 class="text-center mt-4">Java 2019</h2>
+                    </div>
+            </div> 
+            <div id="tituproductos"  class="col-lg-12  text-center">
+              <h2 class="pt-5 pb-5" id="antiguos">Libros antiguos</h2>
+          </div>
+          <div id="imagenes"  class=" col-lg-12  text-center d-flex  container-fluid ">
+                  <div class="col-lg-4 ">
+                      <img id="escobillon" class="img-fluid  border-black border border-2 rounded-3" src="../img/python antiguo.jpg"escobillon">
+                      <h2 class="text-center mt-4">Python 2005</h2>
+                  </div>
+                  <div class="col-lg-4">
+                      <img class="img-fluid border-black border border-2 rounded-3" src="../img/c++ antiguo.jpg"  alt="plasticos">
+                      <h2 class="text-center mt-4">C++ 2003</h2>
+                  </div>
+                  <div class="col-lg-4">
+                      <img class="img-fluid border-black border border-2 rounded-3" src="../img/java antiguo.jpg" alt="broches">
+                      <h2 class="text-center mt-4">Java 2008</h2>
+                  </div>
+          </div>
+          <div class="col-lg-6 d-flex" >
+            <div id="texto1" class="container align-self-center  px-5">
+                <h2 class="text-center mb-4">audio</h2>
+                <audio controls  class="ms-5">
+                  <source  src="../img/audio.mp3" type="audio/mpeg"  >
+              </audio>
+            </div>
+        </div>
+        <div id="familia" class="col-lg-6 text-center">
+            <h2>Trailer</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QwIg6q-qP-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>   
+        <form id="ser">
+          <div id="cont">
+              <h2  class="mt-5 text-center" id="encuesta">Contactarnos</h2>
+              <label  for="exampleInputEmail1" class="form-label">Email</label>
+              <input  type="email" class="form-control"placeholder="Ingrese su Email para contactarnos"  id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              <label  for="floatingTextarea" class="mt-5 mb-3">Comentarios</label>
+              <textarea id="ho" class="form-control" placeholder="Asunto" id="floatingTextarea" ></textarea>
+              <div >
+                  <label id="label"  class="radio fs-4">Buena</label>
+                  <input  type="radio" name="estado" >
+                  <label  id="label" class="radio fs-4">Mala</label>
+                  <input   type="radio" name="estado" >
+                  <label  id="label" class="radio fs-4">Regular</label>
+                  <input  type="radio" name="estado" >
+              </div>
+              <div >
+                  <p  id="chackbox"class="fs-4 mt-5 text-center"> ¿Que te pareciò los libros elegidos?</p>
+                  <label   id="label" id="colores" class="radio fs-4 tex">Bien</label>
+                  <input  type="checkbox" name="estado" >
+                  <label id="label" class="radio fs-4">Mala</label>
+                  <input  type="checkbox" name="estado" >
+                  <label id="label" class="radio fs-4">Regular</label>
                   
-  
-                </div>
-        <div> 
-      </section>
+              </div>
+              <div > 
+                  <textarea  name="" id="colores" cols="30" rows="5"></textarea>
+                  <p class="fs-4 text-center">¿Desea recomendar alguna fuente de colores?</p>
+              </div>
+
+              <button id="boton" type="submit" class="btn btn-outline-dark border-3 mt-3 ">Enviar</button>
+          </div>
+      </form>
+        
+
+        </div>
+    </section>
     </main>
     <footer class="container-fluid h-100 bg-info " style="--bs-bg-opacity: .6;">
       <div class="row h-100">
